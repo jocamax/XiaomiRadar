@@ -91,7 +91,7 @@ body{
     height: 350px;
     margin-bottom: 30px;
     overflow: hidden;
-    transition: 0.35s;
+    transition: 0.1s;
 }
 
 .main-img{
@@ -133,16 +133,10 @@ body{
 }
 
 
-
-
-
 /*  ARTICLES DESIGN */
 
 
 .news-heading{
-    /* margin-left: auto;
-    margin-right: auto;
-    max-width: 1050px; */
     margin-right: 2rem;
     font-size: 26px;
     margin-top: 0px;
@@ -154,8 +148,8 @@ body{
     margin-right: auto;
     width: 650px;
     display: grid;
-    grid-template-columns: 310px 310px;
-    gap: 15px;
+    grid-template-columns: 320px 320px;
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -166,7 +160,7 @@ body{
 }
 .news-post img{
     width: 300px;
-    height: 150px;
+    height: 170px;
 }
 
 .news-post a{
@@ -246,8 +240,6 @@ body{
     margin-right: auto;
     max-width: 1100px;
 } 
-
-
 
 /* SINGLE ARTICLE DESIGN */
 
@@ -456,6 +448,12 @@ body{
         width: 700px;
     }
 
+    .main-date{
+        position: absolute;
+        margin: 0;
+        left: 25px;
+        bottom: 10px;
+    }
 
 }
 
@@ -542,13 +540,34 @@ body{
     .article-img{
         width: 550px;
     }
+
+    .main-date{
+        position: absolute;
+        margin: 0;
+        left: 20px;
+        bottom: 5px;
+    }
 }
 
 @media(max-width: 550px){
+    
+    .main-post{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+
     .news-post img{
         margin-right: 5px;
-        width: 200px;
-        height: 110px;
+        width: 130px;
+        height: 70px;
+    }
+
+    .news-date{
+        position: absolute;
+        margin-top: 190px;
+        width: 140px;
+        opacity: 0.7;
     }
 
     .news-title{
@@ -559,6 +578,24 @@ body{
 
     .article-img{
         width: 400px;
+    }
+    .main-post h2{
+        text-align: left;
+        margin: 250px 40px 45px 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .main-date{
+        position: absolute;
+        margin: 0;
+        left: 20px;
+        bottom: 5px;
+    }
+
+    .heading-sorting{
+        margin: 20px;
     }
 
 }

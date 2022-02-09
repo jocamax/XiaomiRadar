@@ -5,7 +5,8 @@ btn.innerHTML = "Sort by Latest"
 
 
 btn.addEventListener('click', function(){
-    btn.classList.toggle('active')
+
+    let sort;
     console.log(btn.classList);
     if(btn.classList.contains('active')){
         btn.innerHTML= 'Sort by Earliest'

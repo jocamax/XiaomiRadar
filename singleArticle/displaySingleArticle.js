@@ -7,7 +7,7 @@ const displayArticle = (data)=>{
     console.log(article);
     const section = get('.news')
     
-    
+// .    
     function articleTemplate(article){
         const {title:title, text1:text1, text2:text2, text3:text3, text4:text4,text5:text5, mainImg:mainImg} = article
         return `<h1 class="article-title">Xiaomi U Disk Flash Drive launched in China, offers 150MB/s read speeds</h1>

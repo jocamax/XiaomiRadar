@@ -7,9 +7,7 @@ const get = (selection) => {
 
 const displaySidebar = ({articles})=>{
     const section = get('.sidebar')
-    const title = get('.title')
-    const img = get('.sidebar-picture')
-    const date = get('.sidebar-date')
+
 
     const sidebarArticle = articles.map((sidebar)=>{
 
@@ -23,7 +21,6 @@ const displaySidebar = ({articles})=>{
         </div>
     </article>`
         }
-
     }).join('')
     section.innerHTML = sidebarArticle
     return section
@@ -31,3 +28,9 @@ const displaySidebar = ({articles})=>{
 }
 
 export default displaySidebar
+
+/* <article class="news-post" data-id="${id}">
+            <a href="article1.html"><img src="${img}" class="img-main" alt=""></a>
+            <a href="article1.html"><h2 class="news-title">${title}</h2></a>
+            <p class="news-date">${date}</p>
+        </article> */

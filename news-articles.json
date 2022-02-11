@@ -9,7 +9,8 @@
     "text5": "Counterpoint Research’s Associate Director, Jan Stryjak said, “a major factor to consider is the decline of Huawei. Huawei’s sales dropped by almost 90% annually in Europe in 2021, leaving it on less than 1% market share and in 8th position (down from 4th in 2020). But while Huawei had another year to forget in Europe, other vendors, especially some of the Chinese challengers, certainly had a year to celebrate.”",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2022/01/s_f344751bc221483684ad85db27e22c83.png",
     "date": "2021-01-25",
-    "displaySidebar":false
+    "displaySidebar":false,
+    "main":false
 },
 
 {
@@ -22,7 +23,8 @@
     "text5": "Counterpoint Research’s Associate Director, Jan Stryjak said, “a major factor to consider is the decline of Huawei. Huawei’s sales dropped by almost 90% annually in Europe in 2021, leaving it on less than 1% market share and in 8th position (down from 4th in 2020). But while Huawei had another year to forget in Europe, other vendors, especially some of the Chinese challengers, certainly had a year to celebrate.”",
     "mainImg": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Untitled41.jpg",
     "date": "2021-01-26",
-    "displaySidebar":true
+    "displaySidebar":true,
+    "main":false
 },
 
 {
@@ -35,7 +37,8 @@
     "text5": "Counterpoint Research’s Associate Director, Jan Stryjak said, “a major factor to consider is the decline of Huawei. Huawei’s sales dropped by almost 90% annually in Europe in 2021, leaving it on less than 1% market share and in 8th position (down from 4th in 2020). But while Huawei had another year to forget in Europe, other vendors, especially some of the Chinese challengers, certainly had a year to celebrate.”",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2022/01/Redmi-Note-11-India-Launch-Teaser.jpeg",
     "date": "2021-01-25",
-    "displaySidebar":false
+    "displaySidebar":false,
+    "main":true
 },
 
 {
@@ -48,7 +51,8 @@
     "text5": "Counterpoint Research’s Associate Director, Jan Stryjak said, “a major factor to consider is the decline of Huawei. Huawei’s sales dropped by almost 90% annually in Europe in 2021, leaving it on less than 1% market share and in 8th position (down from 4th in 2020). But while Huawei had another year to forget in Europe, other vendors, especially some of the Chinese challengers, certainly had a year to celebrate.”",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2022/01/xiaomi-mix-5-pro-746x420.png",
     "date": "2021-01-26",
-    "displaySidebar":true
+    "displaySidebar":true,
+    "main":false
 },
 
 {
@@ -61,7 +65,8 @@
     "text5": "Counterpoint Research’s Associate Director, Jan Stryjak said, “a major factor to consider is the decline of Huawei. Huawei’s sales dropped by almost 90% annually in Europe in 2021, leaving it on less than 1% market share and in 8th position (down from 4th in 2020). But while Huawei had another year to forget in Europe, other vendors, especially some of the Chinese challengers, certainly had a year to celebrate.”",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2022/01/MIUI-13-Logo-Featured-D.jpeg",
     "date": "2021-01-25",
-    "displaySidebar":true
+    "displaySidebar":true,
+    "main":true
 },
 
 {
@@ -73,7 +78,8 @@
     "text4": "Apple started 2021 with a record 34% market share, riding on the wave of its first 5G iPhone (iPhone 12 series), but closed it with an average share of 26%. In 2020, this stood at 22%.",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2022/01/Xiaomi-12-Pro-review-22-696x392.png",
     "date": "2021-01-26",
-    "displaySidebar":true
+    "displaySidebar":true,
+    "main":false
 },
 
 {
@@ -85,7 +91,8 @@
     "text4": "Apple started 2021 with a record 34% market share, riding on the wave of its first 5G iPhone (iPhone 12 series), but closed it with an average share of 26%. In 2020, this stood at 22%.",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2022/01/Redmi-9A-Featured-A-696x464.jpg",
     "date": "2021-01-25",
-    "displaySidebar":true
+    "displaySidebar":true,
+    "main":false
 },
 
 {
@@ -97,7 +104,8 @@
     "text4": "Apple started 2021 with a record 34% market share, riding on the wave of its first 5G iPhone (iPhone 12 series), but closed it with an average share of 26%. In 2020, this stood at 22%.",
     "mainImg": "https://www.gizmochina.com/wp-content/uploads/2021/04/Mi-MIX-Fold-featured-c.jpg",
     "date": "2021-01-26",
-    "displaySidebar":false
+    "displaySidebar":false,
+    "main":false
 }
 
 

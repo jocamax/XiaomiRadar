@@ -10,7 +10,7 @@ const displayArticle = (data)=>{
 // .    
     function articleTemplate(article){
         const {title:title, text1:text1, text2:text2, text3:text3, text4:text4,text5:text5, mainImg:mainImg} = article
-        return `<h1 class="article-title">Xiaomi U Disk Flash Drive launched in China, offers 150MB/s read speeds</h1>
+        return `<h1 class="article-title">${title}</h1>
         <div class="share-btns">
         <button class="fb share-btn">Facebook</button>
         <button class="twitter share-btn">Twitter</button>

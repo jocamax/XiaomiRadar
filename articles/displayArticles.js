@@ -2,15 +2,12 @@
 
  const displayArticles = ({articles}) =>{
      const section = get('.news-section')
-      const title = get('.news-title')
-      const date = get('.news-date')
     const btn = document.querySelector('.sorting-button')
 
 
 
 btn.addEventListener('click', function(){
     btn.classList.toggle('active')
-    let sort;
     console.log(btn.classList);
     if(btn.classList.contains('active')){
         btn.innerHTML= 'Sort by Earliest'

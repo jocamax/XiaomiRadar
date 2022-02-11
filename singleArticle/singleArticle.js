@@ -1,6 +1,5 @@
 import fetchArticles from "../mainJavascript/fetch.js";
 import displayArticle from "./displaySingleArticle.js";
-import setArticle from "./setArticle.js";
 
 const presentArticle = async() => {
     
@@ -10,7 +9,7 @@ const presentArticle = async() => {
 
     displayArticle(article)
 
-    
 }
+
 
 window.addEventListener('DOMContentLoaded', presentArticle)

@@ -5,7 +5,6 @@
     const btn = document.querySelector('.sorting-button')
 
 
-
 btn.addEventListener('click', function(){
     btn.classList.toggle('active')
     console.log(btn.classList);

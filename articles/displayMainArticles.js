@@ -16,8 +16,8 @@ const displayMainArticles = ({articles})=>{
 
         const {idArticle:id, title:title, mainImg:img, date:date, main:main} = article
         if(main === true){
-        return `<div class=" main-post" data-id="${id}" >
-        <div class="main-post main-img" style='background:url(${img}) no-repeat center' alt="">
+        return `<div class=" main-post"  >
+        <div class="main-post main-img" style='background:url(${img}) no-repeat center' alt="" data-id="${id}">
             <a href="article1.html"><h2 class="news-title">${title}</h2></a>
            <p class="news-date main-date">${date}</p>
         </div>

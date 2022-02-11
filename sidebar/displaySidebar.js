@@ -13,9 +13,9 @@ const displaySidebar = ({articles})=>{
 
         const {idArticle:id, title:title, mainImg:img, date:date, displaySidebar:displaySidebar} = sidebar
         if(displaySidebar === true){
-        return `<article class="sidebar-element" data-id="${id}">
+        return `  <article class="sidebar-element"  >
         <img src="${img}" alt="" class="sidebar-picture">
-        <div class="sidebar-text">
+        <div class="sidebar-text" data-id="${id}" >
             <a href="article1.html" class="sidebar-a"><h3 class="sidebar title">${title}</h3></a>
             <p class="sidebar-date">${date}</p>
         </div>
@@ -33,4 +33,22 @@ export default displaySidebar
             <a href="article1.html"><img src="${img}" class="img-main" alt=""></a>
             <a href="article1.html"><h2 class="news-title">${title}</h2></a>
             <p class="news-date">${date}</p>
-        </article> */
+        </article> 
+        
+        <article class="news-post" data-id="${id}">
+            <a href="article1.html"><img src="${img}" class="img-main" alt=""></a>
+            <a href="article1.html"><h2 class="news-title">${title}</h2></a>
+            <p class="news-date">${date}</p>
+        </article>
+        
+        <article class="sidebar-element" data-id="${id}">
+        <img src="${img}" alt="" class="sidebar-picture">
+        <div class="sidebar-text">
+            <a href="article1.html" class="sidebar-a"><h3 class="sidebar title">${title}</h3></a>
+            <p class="sidebar-date">${date}</p>
+        </div>
+    </article>
+        
+        
+        
+        */

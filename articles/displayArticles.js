@@ -1,14 +1,14 @@
  import get from '../mainJavascript/getElement.js'
 
- const displayArticles = ({articles}) =>{
+ const displayArticles = (articles) =>{
      const section = get('.news-section')
     const btn = document.querySelector('.sorting-button')
 
 
 btn.addEventListener('click', function(){
     btn.classList.toggle('active')
-    console.log(btn.classList);
     if(btn.classList.contains('active')){
+        console.log(btn.classList);
         btn.innerHTML= 'Sort by Earliest'
         const newArticles = articles
         .sort((a,b) => parseFloat(b.idArticle) - parseFloat(a.idArticle))

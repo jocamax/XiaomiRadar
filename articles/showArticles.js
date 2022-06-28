@@ -27,9 +27,10 @@ const setupUI = ()=>{
      //display articles
      const section = await displayArticles(paginate(data)[index])
      pages = paginate(data)
-     setupUI()
-     setArticle(section)
 
+     setArticle(section)
+     setupUI()
+    
     buttonContainer.addEventListener('click', function(e){
         if(e.target.classList.contains('page-btn')){
             index = parseInt(e.target.dataset.index);
